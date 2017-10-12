@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">CountryList</string>
+    <string name="confirmation">confirmation</string>
+    <string name="confirm_message">confirm message</string>
+    <string name="erase">Erase</string>
+    <string name="msg_item">You have choose:</string>
+</resources>
