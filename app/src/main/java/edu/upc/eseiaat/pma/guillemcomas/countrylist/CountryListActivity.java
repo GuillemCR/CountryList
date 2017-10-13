@@ -40,7 +40,7 @@ public class CountryListActivity extends AppCompatActivity {
                 String msg_item = getResources().getString(R.string.msg_item);
                 Toast.makeText(
                         CountryListActivity.this,
-                        String.format(msg_item + country_list.get(pos)),
+                        msg_item + country_list.get(pos),
                         Toast.LENGTH_SHORT).show();
 
                 list.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
@@ -64,11 +64,7 @@ public class CountryListActivity extends AppCompatActivity {
                         return true;                                                                //sense true es pensa que és un clcik
                     }
                 });
-
-
-
             }
         });
-
     }
 }
